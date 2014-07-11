@@ -6,7 +6,7 @@ class Cargo < Formula
   homepage "https://github.com/rust-lang/cargo"
   head "https://github.com/rust-lang/cargo.git"
 
-  depends_on 'rust'
+  depends_on 'rust-nightly'
 
   def install
     args = ["PREFIX=#{prefix}"]
